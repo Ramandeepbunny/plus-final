@@ -31,6 +31,7 @@ function refreshWeather(response) {
   windElement.innerHTML = `${response.data.wind.speed}`;
   temperatureElement.innerHTML = Math.round(temperature);
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
+  getForecast(response.data.city);
 }
 
 function searchcity(city) {
@@ -47,8 +48,14 @@ function SearchSubmit(event) {
   cityElement.innerHTML = searchInput.value;
   searchcity(searchInput.value);
 }
+function getForecast(city){
+let apiKey = "60c3d936b5fef44at07f1bcc18a1ob97";
+let apiiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&unit=imperial`;
+axios(apiiUrl).then(displayForecast);
+}
 
-function displayforecast() {
+function displayForecast(response) {
+  console.log(response.data);
 
 let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
 let forecastHtml ="";
@@ -77,7 +84,7 @@ forecastElement.innerHTML = forecastHtml;
 }
 let searchFormElement =  document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", SearchSubmit);
-displayforecast()
+getForecast("Paris");
 
 
 
