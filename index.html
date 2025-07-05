@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <title>weather forecast</title>
+</head>
+<body>
+  <div class="weather-app" id="weather-app">
+  <header>
+    <form id="search-form">
+      <input required class="search" id="search-Input" type="search"  placeholder="Enter a City..." />
+      <input class="submit" type="submit" value="search" />
+    </form>
+  </header>
+    <main>
+      <div class="emoji" id="emoji">
+        <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png">
+      </div>
+
+      <div class="temp">
+        <strong><span id="temp">0</span><sup class="degree">°F </sup></strong>
+      </div>  
+
+      <div class="description" id="description">
+            sky
+      </div>
+      
+      <h1 id="City"> <strong >City</strong>
+      </h1> 
+
+        <p class="time" id="time">
+        Day 00:00
+        </p>
+
+        <br />
+
+        <div class="Humidity-wind">
+
+          <div> 
+          Humidity:
+          </br>
+            <span id="Humidity"> 
+            0%
+            </span>
+          </div>
+
+          <div> 
+            Wind: 
+          </br>
+            <span id="Wind">
+            0%
+            </span>
+          </div>
+      </div>
+      <hr class="custom-line">
+
+      <div class="whole">
+    <div class="weather-app-temperature-container">
+        <div id="icon"></div>
+        <div class="weather-app-temerature" id="temperature"</div>
+        <div class="weather-app-unit">°C</div>
+      </div>
+      <div class="weather-forecast" id="forecast"></div>
+    </main>
+  
+
+  <footer>
+    This Project was coded by
+    <a class="site" href="https://github.com/Ramandeepbunny" target="_blank"> ramandeep kaur</a> and is
+    <a class="site" href="https://github.com/Ramandeepbunny/plus-week-7-homework" target="_blank"> open-sourced on GitHub</a> and
+    <a  class="site"href="#" target="_blank">hosted on netlify</a>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>

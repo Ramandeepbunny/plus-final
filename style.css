@@ -1,0 +1,148 @@
+body{
+  background: linear-gradient(105.4deg, rgb(216, 176, 216) 23.9%, rgb(53, 169, 215) 86.5%);
+}
+.weather-app{
+  background-image: url('https://i.imghippo.com/files/QAX2831x.png');
+  background-size: 529px 659px;
+  max-width: 470px;
+  height: 600px;
+  margin: 30px auto 30px;
+  padding: 30px;
+  box-shadow: 15px 15px 9px rgba(65, 50, 100, 0.15);
+  border-radius: 3%;
+  
+}
+form{
+  margin: 10px 10px 0px 28px;
+}
+.search{
+  width: 340px;
+  margin-right: 10px;
+  margin-top: 0px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #fffade;
+  border-width: 2px;
+  border-radius: 20px;
+  border-color: rgba(100, 100, 100, 0.559);
+
+}
+.submit{
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 20px;
+  background-color: #fffade;
+  border-width: 2px;
+  border-color: rgba(100, 100, 100, 0.559);
+}
+  img{
+  display: block;
+  MARGIN:auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  max-width: 100px;
+  height: 100px;
+
+  }
+  .temp{
+    
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    color: white;
+  }
+  .degree{
+    font-size: 25px;
+    margin-left: 0px;
+  
+  }
+  
+  .description{
+    font-size: 23px;
+    text-align: center;
+    color:white;
+    margin-top: 0px;
+  }
+ 
+h1{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
+.time{
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0px;
+  
+  }
+  .Humidity-wind{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  .custom-line{
+    border: none;           
+    height: 2px;            
+    background-color: white;  
+    opacity: 0.3; 
+  }
+  .whole{
+    background-color: rgba(30, 36, 31, 0.158);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+  }
+  .weather-forecast{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    margin-bottom: 7px;
+  }
+  .weather-forecast-date{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .weather-forecast-icon{
+    font-size: 30px;
+    text-align: center;
+  }
+  .weather-forecast-temperatures{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+  .weather-forecast-temperature{
+    padding: 0 10px;
+  }
+  footer{
+    margin-top: 17px;
+    color: white;
+    font-size: 12px;
+  }
+  .site{
+    color:rgb(78, 233, 244)
+  }
