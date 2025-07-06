@@ -13,7 +13,7 @@ body{
   
 }
 form{
-  margin: 10px 10px 0px 28px;
+  margin: 5px 10px 0px 28px;
 }
 .search{
   width: 340px;
@@ -41,11 +41,11 @@ form{
 }
   img{
   display: block;
-  MARGIN:auto;
-  margin-top: 10px;
+  margin: auto;
+  margin-top: 5px;
   margin-bottom: 0px;
-  max-width: 100px;
-  height: 100px;
+  max-width: 130px;
+  height: 130px;
 
   }
   .temp{
@@ -58,6 +58,7 @@ form{
     color: white;
   }
   .degree{
+    margin-top: 5px;
     font-size: 25px;
     margin-left: 0px;
   
@@ -72,7 +73,7 @@ form{
  
 h1{
   color: white;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -88,7 +89,7 @@ h1{
   }
   .Humidity-wind{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     justify-content:space-around;
     margin-top: 0px;
@@ -96,8 +97,8 @@ h1{
   }
   .custom-line{
     border: none;           
-    height: 2px;            
-    background-color: white;  
+    height: 1px;            
+    background-color: rgba(255, 255, 255, 0.345);  
     opacity: 0.3; 
   }
   .whole{
@@ -106,7 +107,7 @@ h1{
     border-radius: 15px;
     margin-top: 0px;
     padding-bottom: 5px;
-    margin-top: 15px;
+    margin-top: 25px;
   }
   .weather-forecast{
     display: flex;
@@ -118,31 +119,35 @@ h1{
     display: block;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-top: 20px;
   }
   .weather-forecast-icon{
-    font-size: 30px;
-    text-align: center;
+    margin-top: 0px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin: 0 auto;
   }
   .weather-forecast-temperatures{
-    margin-top: 10px;
+    margin-top: 1px;
+    margin-bottom: 2px;
     display: flex;
     justify-content: center;
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 17px;
   }
   .weather-forecast-temperature{
     padding: 0 10px;
   }
   footer{
-    margin-top: 17px;
+    margin-top: 30px;
     color: white;
     font-size: 12px;
   }
   .site{
-    color:rgb(78, 233, 244)
+    color:rgb(32, 22, 33)
   }
