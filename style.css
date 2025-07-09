@@ -2,7 +2,7 @@ body{
   background: linear-gradient(105.4deg, rgb(216, 176, 216) 23.9%, rgb(53, 169, 215) 86.5%);
 }
 .weather-app{
-  background-image: url('https://i.imghippo.com/files/QAX2831x.png');
+  background-image: url("https://i.imghippo.com/files/QAX2831x.png");
   background-size: 529px 659px;
   max-width: 470px;
   height: 600px;
@@ -11,6 +11,9 @@ body{
   box-shadow: 15px 15px 9px rgba(65, 50, 100, 0.15);
   border-radius: 3%;
   
+}
+background-image{
+  opacity 0.5
 }
 form{
   margin: 5px 10px 0px 28px;
